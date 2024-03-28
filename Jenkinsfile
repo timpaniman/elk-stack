@@ -1,6 +1,5 @@
 node {
     def application = "springbootapp"
-    def dockerhubaccountid = "timpaniman"
     def app  // defining app variable here to be globally accessible
 
     stage('Clone repository') {
